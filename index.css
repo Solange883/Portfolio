@@ -1,11 +1,172 @@
 
+.navbar{
+    position: absolute;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+.navbar a{
+    color: black;
+    
+}
+.navbar .logo{
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 5px;
+}
+.navbar .nav-links ul{
+    display :flex;
+}
+.navbar .nav-links ul li {
+    margin:0 25px;
+    list-style: none;
+  
+}
+.navbar .nav-links ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar .menu-hamburger{
+    display:none;
+    width: 35;
+    position: absolute;
+    top:50px;
+    right: 20px;
+    width: 35px;
+
+}
 
 
 
 
+@media screen and (max-width:600px) {
+    .navbar {
+        padding:0;
+    }
+    .navbar .logo{
+        position: absolute;
+        top: 10px;
+        left:30px
+
+    }
+
+    .navbar .menu-hamburger{
+        display: block;
+        top:10px
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    .nav-links{
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(255,255,255,0,299);
+        backdrop-filter: blur(8px);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+    }
+
+    .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .nav-links ul li{
+        margin: 25px 0;
+        font-size: 1.2rem;
+    }
+
+    .nav-links.mobile-menu{
+        margin-left:0;
+    }
+
+}
+
+.home{
+    height: clac(100vh - 3rem);
+    row-gap: 1rem;
+}
+.home_text{
+    align-self: center;
+    margin-left: 50px;
+    padding-top: 60px;
+}
+.home_title{
+    font-size:xx-large;
+}
+.color{
+    color: palevioletred;
+}
+
+.home_text .button{
+    display: inline-block;
+    border-radius: .5rem;
+    background-color: palevioletred;
+    padding: .175rem 2.5rem;
+
+}
+.home_text .button:hover{
+box-shadow: 0 10px 36px rgba(0,0,0,.15);
+}
+.home_text a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+
+
+.reseau{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    margin-top: 200px;
+}
+.reseau_icon{
+    width:max-content;
+    font-size: 1.5rem;
+}
+.reseau_icon:hover{
+    color:palevioletred;
+}
+
+.image{
+    position:absolute;
+    right:0px;
+    bottom: 600px;
+    top: 200px;
+    
+}
+.image img{
+    position: relative;
+    width: 350px;
+    height: auto;
+    right:150px;
+    margin-bottom: 1000px;
+    align-self: flex-end;
+}
 
 
 
 
-
-
+.l-main{
+    padding-top: 100px;
+}
+.about_section{
+    margin-top: 1000px;
+}
