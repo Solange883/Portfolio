@@ -387,12 +387,12 @@ box-shadow: 0 10px 36px rgba(0,0,0,.15);
 
 }
 .footer_social a:hover{
-   color:purple ;
+   color:rgb(29, 2, 29) ;
 
 }
 
 .footer_icon{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 @media screen and (max-width:900px) {
    
