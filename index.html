@@ -27,33 +27,45 @@
 
         <main class="l-main">
             <section class="home-section" id="home">
-
+              <div class="boite">
                <div class="home_text">
                 <h1 class="home_title">Salut,<br>Je suis <span class="color">Marie Solange Diouf</span><br> Developpeuse Web</h1>
                 <a href="CV_MARIE_SOLANGE_DIOUF.pdf" class="button">Telechargez CV</a>
                </div>
-
+               <div class="image">
+                <img src="images/profil.jpg" alt="">
+               </div>
+             </div>
             
               <div class="reseau">
                 <a href="http://linkedin.com/in/marie-solange-siga-thioumbou-diouf-b07ab2282"  class="reseau_icon"><i class='bx bxl-linkedin'></i></a>
                 <a href="https://github.com/Solange883"  class="reseau_icon"><i class='bx bxl-github'></i></a>
               </div>
 
-              <div class="image">
-                <img src="images/profil.jpg" alt="">
-               </div>
+              
              
             </section>
 
-          <section class="about_section">
-            <h2 class="about_title">Je m'appelle Solange</h2>
-            <p class="about_text">Étudiante en informatique option génie logiciel passionnée par la technologie et l'innovation, je suis en formation pour devenir une experte en développement web et mobile. Avec une solide base en programmation, je me spécialise également en génie logiciel. Mon objectif est de contribuer à des projets ambitieux et de continuer à apprendre et évoluer dans un environnement stimulant.</p>
-          </section>
+          <section class="about_section" id="about">
+            <h2 class="section_title">About</h2>
+            <div class="about_container">
+                <div class="about_img">
+                    <img src="images/profil.jpg" alt="">
+                </div>
+
+                <div class="about_text">
+                   <h2 class="about_title">Je suis Solange</h2>
+                   <p class="about_text">Étudiante en informatique option génie logiciel passionnée par la technologie et l'innovation, je suis en formation pour devenir une experte en développement web et mobile. Avec une solide base en programmation, je me spécialise également en génie logiciel. Mon objectif est de contribuer à des projets ambitieux et de continuer à apprendre et évoluer dans un environnement stimulant.</p>
+                </div>
+
+            </div>
+            </section>
 
           <section class="skills_section" id="skills">
-            <h2 class="skills_title">Skills</h2>
-
-            <div class="langages">
+            <h2 class="section_title">Skills</h2>
+            <div class="skills_container">
+             
+              <div class="langages">
                 <div class="langage">
                     <i class='bx bxl-html5'></i>
                     <span>HTML</span>
@@ -94,6 +106,7 @@
                     <i class='bx bxl-angular'></i>
                     <span>Angular</span>
                 </div>
+              </div>
             </div>
           </section>
 
@@ -111,19 +124,15 @@
           </section>
 
           <section class="contact_section" id="contact">
-            <h2 class="contact_titre">Contact</h2>
+            <h2 class="contact_title">Contact</h2>
 
             <div class="contact_container">
                 <form action="" class="contact_form">
-                    <label for="Nom">Nom</label>
-                    <input type="text" class="contact_input">
-                    <label for="Prenom">Prenom</label>
-                    <input type="text" class="contact_input">
-                    <label for="Email">Email</label>
-                    <input type="email" class="contact_input">
-                    <label for="Tel">Telephone</label>
-                    <input type="tel" class="contact_input">
-                    <textarea name="" id="" cols="0" rows="10"></textarea>
+                    <input type="text" placeholder="Nom" class="contact_input">
+                    <input type="text" placeholder="Prenom" class="contact_input">
+                    <input type="email" placeholder="Email" class="contact_input">
+                    <input type="tel" placeholder="Telephone" class="contact_input">
+                    <textarea name="" id="" cols="0" rows="10" class="contact_input"></textarea>
                     <input type="button" value="Envoyer" class="contact_button">
                 </form>
             </div>
