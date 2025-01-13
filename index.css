@@ -127,7 +127,7 @@
     display: inline-block;
     border-radius: .5rem;
     background-color: palevioletred;
-    padding: .175rem 2.5rem;
+    padding: .175rem 3.5rem;
 
 }
 .home_text .button:hover{
@@ -243,6 +243,8 @@ box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
 .langages{
     display:flex;
+    flex-wrap: wrap; /* Ajoute cette ligne pour permettre le retour à la ligne */
+    justify-content: center; 
 }
 .skills_container .langages .langage{
     display: flex;
@@ -254,6 +256,10 @@ box-shadow: 0 10px 36px rgba(0,0,0,.15);
     border: 1.5px solid purple;
     border-radius: 5px ;
     
+}
+.sql{
+    width: 80px;
+    height: auto;
 }
 .langage:hover {
     transform: scale(1.1);
