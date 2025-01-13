@@ -319,6 +319,7 @@ box-shadow: 0 10px 36px rgba(0,0,0,.15);
  margin-top: 15px;
  margin-left: 250px;
 }
+
 .contact_button{
     font-size: large;
     display: block;
@@ -328,9 +329,10 @@ box-shadow: 0 10px 36px rgba(0,0,0,.15);
     color: white;
     background-color: palevioletred;
     margin-top: 10px;
-    border-radius: 20px;
+    border-radius:.5rem;
     margin-left: auto;
     margin-right: 230px;
+    padding: .175rem 2.5rem;
 }
 @media screen and (max-width:900px) {
     .contact_input{
@@ -353,7 +355,7 @@ box-shadow: 0 10px 36px rgba(0,0,0,.15);
 
 
 .footer{
-    background-color: rgb(32, 29, 32);
+    background-color:purple;
     margin-top: 50px;
     width: 100%;
     height: auto;
@@ -366,6 +368,9 @@ box-shadow: 0 10px 36px rgba(0,0,0,.15);
     text-align: center;
     padding-top: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer_social img{
+    width: 17px;
 }
 .footer_social{
     margin-left: 590px;
@@ -381,7 +386,7 @@ box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
 
 .footer_icon{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 @media screen and (max-width:900px) {
    
