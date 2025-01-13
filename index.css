@@ -336,23 +336,26 @@ box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
 
 
-
+footer {
+    border-bottom: 2px solid white; /* Ajustez la couleur et l'épaisseur selon vos préférences */
+  }
 .footer{
     background-color: rgb(32, 29, 32);
     margin-top: 50px;
     width: 100%;
     height: auto;
-   
-   
 
 }
 .footer_title,.footer p{
     color: white;
+    font-size: 14px;
     text-align: center;
     padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .footer_social{
     margin-left: 590px;
+  
 }
 .footer_social a{
     margin-right:30px;
