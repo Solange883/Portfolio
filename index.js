@@ -15,9 +15,27 @@ menuHamburger.onclick=() =>{
 const sr=ScrollReveal({
     origin:'top',
     distance:'80px',
-    duration:2000?
+    duration:2000,
     reset:true
 })
 
+
 sr.reveal('.home_title',{})
 sr.reveal('.button',{delay:200})
+sr.reveal('.image img',{delay:400})
+sr.reveal('.reseau_icon',{interval:200})
+
+sr.reveal('.section_title',{})
+sr.reveal('.about_imag',{delay:400})
+sr.reveal('.about_text',{delay:400})
+
+sr.reveal('.section_title',{})
+sr.reveal('.langage',{interval:200})
+
+sr.reveal('.work_title',{})
+
+
+sr.reveal('.contact_title',{})
+sr.reveal('.contact_input',{interval:200})
+
+

@@ -113,7 +113,7 @@
 }
 .home_text{
     align-self: center;
-    margin-left: 50px;
+    margin-left: 60px;
     padding-top: 60px;
 }
 .home_title{
@@ -165,13 +165,15 @@ box-shadow: 0 10px 36px rgba(0,0,0,.15);
     position:absolute;
     width: 350px;
     height: auto;
-    right:150px;
-    
+    right:160px;
+    clip-path: circle();
     border-radius: 30px;
+    padding-top: 0px;
+
     
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
     .image {
         position: relative;
         margin-top: 500px;
@@ -226,6 +228,8 @@ box-shadow: 0 10px 36px rgba(0,0,0,.15);
 .section_title{
     text-align: center;
     color:palevioletred;
+    font-weight: bold;
+    font-size: 30px;
 }
 .section_title:hover{
     text-decoration: underline;
@@ -280,6 +284,8 @@ box-shadow: 0 10px 36px rgba(0,0,0,.15);
 .work_title{
     color: palevioletred;
     text-align: center;
+    font-weight: bold;
+    font-size: 30px;
 }
 .work_title:hover{
     text-decoration: underline;
@@ -294,6 +300,8 @@ box-shadow: 0 10px 36px rgba(0,0,0,.15);
 .contact_title{
     color: palevioletred;
     text-align: center;
+    font-weight: bold;
+    font-size: 30px;
 }
 .contact_title:hover{
     text-decoration: underline;
@@ -324,26 +332,32 @@ box-shadow: 0 10px 36px rgba(0,0,0,.15);
     margin-left: auto;
     margin-right: 230px;
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:900px) {
     .contact_input{
-        margin-left: 0px;
+        margin-left: 100px;
     }
     .contact_button{
-        margin-left: 220px;
+        margin-left: 330px;
     }
+    .footer_social{
+        display: flex;
+        flex-direction: row;
+        margin-left: 2000px;
+
+    }
+  
 
   
 }
 
 
-footer {
-    border-bottom: 2px solid white; /* Ajustez la couleur et l'épaisseur selon vos préférences */
-  }
+
 .footer{
     background-color: rgb(32, 29, 32);
     margin-top: 50px;
     width: 100%;
     height: auto;
+    padding-right: 200px;
 
 }
 .footer_title,.footer p{
@@ -364,6 +378,21 @@ footer {
 .footer_icon{
     font-size: 1.2rem;
 }
+@media screen and (max-width:900px) {
+   
+    .footer .footer_social{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0;
+    }
+  
+
+  
+}
+
+
+
 
 
 @media screen and (min-width:700px){
