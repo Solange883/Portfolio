@@ -5,7 +5,18 @@ menuHamburger.onclick=() =>{
 };
 
 
+const typingText = document.querySelector('.color');
+const text = 'Marie Solange Diouf';
+let i = 0;
 
+function type() {
+  if (i < text.length) {
+    typingText.textContent += text.charAt(i);
+    i++;
+    setTimeout(type, 130); // Ajustez l'intervalle en millisecondes
+  }
+}
+type();
 
 
 
