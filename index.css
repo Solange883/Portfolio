@@ -249,24 +249,30 @@ box-shadow: 0 10px 36px rgba(0,0,0,.15);
     display:flex;
     flex-wrap: wrap; /* Ajoute cette ligne pour permettre le retour à la ligne */
     justify-content: center; 
+  
+}
+.skills_container{
+    width: 900px;
+    height: auto;
 }
 .skills_container .langages .langage{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100px;
-    padding: 10px 30px;
+    padding: 10px;
+    margin-left: 0px;
     margin: 10px;
     border: 1.5px solid purple;
     border-radius: 5px ;
     
 }
 .mysql{
-    width: 80px;
+    width: 70px;
     height: auto;
 }
-.sql,.react{ width: 50px;}
-.bootstrap{ width: 50px;}
+.sql,.react{ width: 40px;}
+.bootstrap{ width: 40px;}
 .langage i{
     font-size: 30px;
 }
@@ -277,21 +283,48 @@ box-shadow: 0 10px 36px rgba(0,0,0,.15);
 
 .competences .com{
     display: flex;
+    flex-direction: column;
+    background-color: rgb(237, 191, 206);
+    border-radius: 20px;
+    padding-top: 50px;
 }
+
+
 @media screen and (max-width:700px) {
+    .competences{
+        display:flex;
+        flex-direction: column;
+       
+    }
     .langages {
-        display: flex;
-        flex-wrap: wrap; 
-        justify-content: center; 
+        
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding-right: 400px;
       }
       
-      .langage {
+    .langage {
+        gap: 16px;
         margin: 10px;
-      }
+        height: 8px;
+       
+    }
+
+    .langage i{
+        width:3px;
+        padding-right: 10px;
+    }
    
     .skills_container .langages .langage span {
-        font-size: 16px;
+        font-size: 10px;
 
+    }
+    .com{
+    
+        padding-bottom: 60px;
+        display: flex;
+        width:  470px;
+      
     }
 }
 
@@ -314,7 +347,7 @@ box-shadow: 0 10px 36px rgba(0,0,0,.15);
 .projets{
     display: flex;
     gap:40px;
-    margin-left: 300px;
+    margin-left: 210px;
 }
 .projets img{
     width: 300px;
@@ -361,6 +394,13 @@ box-shadow: 0 10px 36px rgba(0,0,0,.15);
     padding: .175rem 2.5rem;
 }
 @media screen and (max-width:900px) {
+    .projets{
+        margin-left: 10px;
+        gap: 10px;
+    }
+    .projet img{
+        width: 150px;
+    }
     .contact_input{
         margin-left: 100px;
     }
